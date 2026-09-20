@@ -130,7 +130,25 @@ bool("False") дает истинное значение, потому что "F
 3. bool(0), bool("")
 
 
+
                                                                      task_4
+
+<img width="512" height="627" alt="image" src="https://github.com/user-attachments/assets/8a0805e9-dd1d-429f-aae6-8fa3d1ca00dd" />
+
+
+<img width="1040" height="452" alt="image" src="https://github.com/user-attachments/assets/578c6e48-3768-4214-b342-e87baae2968e" />
+
+
+<img width="765" height="585" alt="image" src="https://github.com/user-attachments/assets/5ce1403c-730f-471b-80d7-67ec496ce7b2" />
+
+
+
+Ответы на контрольные вопросы:
+
+1. len(symbol) считает символы (кодовые точки Unicode), len(symbol.encode("utf-8")) — байты в UTF‑8; из‑за разной длины кодирования в байтах их значения могут не совпадать.
+2. В срезе text[start:stop:step]: start — начальный индекс (включительно), stop — конечный (не включительно), step — шаг выборки.
+3. Строка неизменяема: методы вроде .upper() не редактируют её, а возвращают новый объект; исходная строка остаётся прежней.
+
 
                                                                      task_5
 
