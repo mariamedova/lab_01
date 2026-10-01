@@ -1,4 +1,4 @@
-'''a = 1000
+a = 1000
 b = a
 c = int("1000")
 
@@ -13,7 +13,7 @@ print("a is c:", a is c) #False
 
 c = None
 print('c is None:', c is None)
-'''
+
 #---------------------
 
 first = "python"
